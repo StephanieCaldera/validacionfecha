@@ -19,9 +19,9 @@ public class Main {
 				if (mes == 2) {
 					if ((dia >= 1 && dia <= 28)
 							|| (dia == 29 && (año % 4 == 0) && (año % 100 != 0 || año % 400 == 0))) { // si es dia 29 y cumple con la condicion de año bisiesto
-						System.out.println("año bisiesto, fecha valida");
+						System.out.println("fecha valida");
 					} else {
-						System.out.println("año no bisiesto, fecha invalida");
+						System.out.println("fecha invalida");
 					}
 				} else {
 					if (dia >= 1 && dia <= 30) {
